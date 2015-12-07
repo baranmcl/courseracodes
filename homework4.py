@@ -10,6 +10,7 @@ html = urllib.urlopen(url).read()
 
 soup = BeautifulSoup(html)
 
+print soup
 # Retrieve all of the anchor tags
 tags = soup('span')
 contentsSum = 0
